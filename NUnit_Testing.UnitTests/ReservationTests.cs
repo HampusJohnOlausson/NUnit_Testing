@@ -3,12 +3,9 @@ using NUnit_Testing.Fundamentals;
 
 namespace NUnit_Testing.UnitTests
 {
+    [TestFixture]
     public class ReservationTests
     {
-        //[SetUp]
-        //public void Setup()
-        //{
-        //}
 
         [Test]
         public void CanBeCancelledBy_AdminCancelling_ReturnsTrue()
